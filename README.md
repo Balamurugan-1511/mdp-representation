@@ -63,9 +63,11 @@ P = {
 }
 
 ## OUTPUT:
-![image](https://github.com/user-attachments/assets/7ce4e5ad-9de4-4c21-9191-a33ab2d5a03a)
 
-![image](https://github.com/user-attachments/assets/05f969d2-01f0-43a5-8905-cee02e798ba3)
+![Screenshot 2024-08-28 092505](https://github.com/user-attachments/assets/98c60d88-f623-4836-a72e-a598ed08bd34)
+
+
+![Screenshot 2024-08-28 092536](https://github.com/user-attachments/assets/9d2ec514-1b5f-49cf-83df-89d2a571ae50)
 
 
 ## RESULT:
