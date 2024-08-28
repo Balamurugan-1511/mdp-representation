@@ -61,7 +61,7 @@ P = {
         1: [(1.0, 2, 0.0, True)]   
     }
 }
-
+```
 ## OUTPUT:
 
 ![Screenshot 2024-08-28 092505](https://github.com/user-attachments/assets/e05540f6-8871-4eda-bb5a-121fecdae75e)
