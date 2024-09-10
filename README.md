@@ -1,73 +1,74 @@
 # MDP REPRESENTATION
 
 ## AIM:
-To represent any one real-world problem in MDP form.
+To represent a Markov Decision Process(MDP) problem in the following ways.
+
+1.Text representation
+
+2.Graphical representation
+
+3.Python - Dictonary representation
 
 ## PROBLEM STATEMENT:
-A customer is planning to buy a product online. They have three websites to choose from: Option A, Option B, and Option C. The customer wants to select the best website based on their preferences and the associated rewards.
 
 ### Problem Description
-choosing the best website to buy
+To Develop an environment contain some dirt and the agent is going to detect and clean the environment using vaccum. The aim is to clean the dirty place.
 
 ### State Space
 
-```
-State 0: Website A
-State 1: Website B
-State 2: Website C
-```
+{Location A,Location B,Location C}
+
 
 ### Sample State
-A sample state could be the customer currently considering website B.
+Location A
 
 ### Sample Action
-A sample action could be the customer deciding to switch from Website A to Website B.
+Moving Right
 
 ### Action Space 
 ```
-Action 0: Stay with the current option
-Action 1: Switch to the next option
+1.Moving Right
+
+2.Moving Left
+
+3.Suck Dirt
 ```
 
 ### Reward Function
-The customer receives a reward of 0 for staying with the current option.
-If the customer switches to the last option (Website C), they receive a reward of 1.
-There are no intermediate rewards for other actions or states.
+1.+1 - when an agent move to the right side and the dirt is cleaned using vaccum
+
+2.0 - Otherwise
 
 ## Graphical Representation:
-![WhatsApp Image 2024-08-28 at 09 21 21_d9219a4a](https://github.com/user-attachments/assets/30b9ac99-baf2-4798-9693-ed0c9231d97c)
+
+![305734451-c9c5fc75-92d5-4db0-a372-212edbb438c1](https://github.com/user-attachments/assets/276d9565-f3d1-4e91-b79b-9d806b607891)
 
 
 ## PYTHON REPRESENTATION:
 ```
-Developed By:
-Name : Bala murugan P
-Reg No : 212222230017
+# Developed by: Bala murugan
+# Register Number: 212222230017
 
-
-## PYTHON REPRESENTATION:
-```py
 P = {
     0:{
-        0: [(1.0, 0, 0.0, True)],  
-        1: [(1.0, 1, 0.0, True)]   
+        0: [(1.0,0,0.0,True)],
+        1: [(1.0,0,0.0,True)]
     },
     1:{
-        0: [(1.0, 1, 0.0, True)],  
-        1: [(1.0, 2, 1.0, True)]   
+        0: [(1.0,0,0.0,True)],
+        1: [(1.0,2,1.0,True)]
     },
     2:{
-        0: [(1.0, 2, 0.0, True)],  
-        1: [(1.0, 2, 0.0, True)]   
+        0: [(1.0,2,0.0,True)],
+        1: [(1.0,2,0.0,True)]
     }
 }
+
 ```
 ## OUTPUT:
 
-![Screenshot 2024-08-28 092505](https://github.com/user-attachments/assets/e05540f6-8871-4eda-bb5a-121fecdae75e)
 
-
-![Screenshot 2024-08-28 092536](https://github.com/user-attachments/assets/9d2ec514-1b5f-49cf-83df-89d2a571ae50)
+![305734147-6eba07da-65b4-497d-92fd-426e48a17985](https://github.com/user-attachments/assets/150166d4-abda-4109-b397-026f3e0f52d6)
 
 
 ## RESULT:
